@@ -6,7 +6,9 @@
 
 body {
   height: 100vh;
+  letter-spacing: 0.01em;
 }
+
 /* HEADER */
 .navbar ul li a {
   text-decoration: none;
@@ -48,21 +50,24 @@ ul {
   padding-top: 2%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  
 }
 
 .header {
   height: 50%;
   background-color: #1f2937;
   color: white;
-  padding: 0 20%;
-  padding-bottom: 5%;
+  padding: 0 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .right-header {
-  flex-basis: 50%;
+  width: 50%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,3 +79,105 @@ ul {
 }
 
 /* INFO section */
+
+.info-text {
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+}
+
+.img {
+  width: 175px;
+  height: 175px;
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+}
+
+.information {
+  height: 50%;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.card {
+  flex-basis: 100px;
+  text-align: center;
+}
+
+.card p {
+  margin-top: 20px;
+}
+
+/* Quote section */
+
+.testimonial {
+  height: 50%;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15%;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  width: 75%;
+  align-self: center;
+}
+
+.author {
+  align-self: end;
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 150px;
+}
+
+/* CALL TO ACTION section */
+
+.text h3 {
+  font-weight: 600;
+}
+
+.call-to-action {
+  width: 70%;
+padding: 3% 7%;
+margin: 5% auto;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.call-to-action button {
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  background-color: #3882f6;
+  border: 2px solid white;
+  padding: 5px 40px;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 10%;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
