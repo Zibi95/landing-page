@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+/* HEADER */
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.second-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.sign-up-btn {
+  background-color: #3882f6;
+  color: white;
+  font-weight: 700;
+  border: 0px;
+  padding: 7px 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.navbar {
+  flex-basis: 100%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  height: 50%;
+  background-color: #1f2937;
+  color: white;
+  padding: 0 20%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.right-header {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(131, 128, 128);
+}
+
+.left-header {
+  flex-basis: 45%;
+}
+
+/* INFO section */
